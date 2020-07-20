@@ -4,7 +4,6 @@ const {counter} = require('./reducers/counter')
 const {todos} = require('./reducers/todos')
 
 const main = async() => {
-    console.log('OM SHIRIDI SAI BABA NAMAHA')
 
     const reducers = {
         counter,
