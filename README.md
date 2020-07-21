@@ -1,4 +1,4 @@
-# Implementation of Redux store with combined reducers
+# Implementation of Redux like store using Vanilla Javascript with combined reducers
 
 ## Summary:
 A simple implmenation of redux like data store providing functionality to initialize state, return current store state, execute actions
