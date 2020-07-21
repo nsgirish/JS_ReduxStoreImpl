@@ -1,9 +1,9 @@
-Implementation of Redux store with combined reducers
+# Implementation of Redux store with combined reducers
 
-Summary:
+## Summary:
 A simple implmenation of redux like data store providing functionality to initialize state, return current store state, execute actions
 
-Usage:
+## Usage:
 const {createStore} = require('./components/SimpleRedux')
 
 const reducers = {
@@ -23,5 +23,5 @@ store.subscribe(() => console.log('current store state is ',JSON.stringify(store
 
 store.dispatch(action) //where action is a action object with type and payload
 
-Reference:
+## Reference:
 https://www.freecodecamp.org/news/redux-in-24-lines-of-code/
